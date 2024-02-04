@@ -1,0 +1,39 @@
+.carList {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 180px));
+    grid-gap: 25px;
+
+    .carCard {
+        background: $white;
+        width: 180px;
+        height: 180px;
+        overflow: hidden;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        .info {
+            text-align: center;
+        }
+
+        .carImage {
+            width: 80px;
+        }
+
+        h6 {
+            margin: 0;
+            margin-top: 10px;
+            font-size: 14px;
+            text-transform: capitalize;
+            color: gray;
+        }
+    }
+}
+
+.viewAction{
+    font-size: 12px;
+    color: black; 
+}
